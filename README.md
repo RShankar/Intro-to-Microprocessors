@@ -9,5 +9,5 @@ From a Microchip [site](http://ww1.microchip.com/downloads/en/DeviceDoc/30010119
 
 The electrosome.com website has multiple [tutorials](https://electrosome.com/category/tutorials/pic-microcontroller/mplab-xc8/) that seem amenable for easy interconnections. Their first tutorial is also included, with appropriate acknowledgement here. 
 
-
+Here is a good trade journal article: https://hackaday.com/2016/02/15/microchip-unveils-online-mplab-ide-and-10-board/
 
