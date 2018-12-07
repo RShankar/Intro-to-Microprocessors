@@ -12,3 +12,5 @@ The electrosome.com website has multiple [tutorials](https://electrosome.com/cat
 Here is a good trade journal article: https://hackaday.com/2016/02/15/microchip-unveils-online-mplab-ide-and-10-board/
 
 The off-line IDE is entitled MPLab X. Here is the linkk for details and download: http://microchipdeveloper.com/tls0101:start
+
+I downloaded my CoolTerm Terminal software from [here](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)
