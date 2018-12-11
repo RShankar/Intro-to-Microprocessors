@@ -14,3 +14,5 @@ Here is a good trade journal article: https://hackaday.com/2016/02/15/microchip-
 The off-line IDE is entitled MPLab X. Here is the linkk for details and download: http://microchipdeveloper.com/tls0101:start
 
 I downloaded my CoolTerm Terminal software from [here](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)
+
+MPLab X IDE example with Curiosity Nano: http://microchipdeveloper.com/touch:lowpincount-curiosity
