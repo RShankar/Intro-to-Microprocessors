@@ -16,3 +16,4 @@ The off-line IDE is entitled MPLab X. Here is the linkk for details and download
 I downloaded my CoolTerm Terminal software from [here](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)
 
 MPLab X IDE example with Curiosity Nano: http://microchipdeveloper.com/touch:lowpincount-curiosity
+PIC 8-bit family comparison: http://microchipdeveloper.com/8bit:summary
