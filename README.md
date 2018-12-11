@@ -17,3 +17,4 @@ I downloaded my CoolTerm Terminal software from [here](https://learn.sparkfun.co
 
 MPLab X IDE example with Curiosity Nano: http://microchipdeveloper.com/touch:lowpincount-curiosity
 PIC 8-bit family comparison: http://microchipdeveloper.com/8bit:summary
+Curiosity Nanoboard: https://www.digikey.com/en/product-highlight/m/microchip-technology/dm164144-curiosity-nano-board
