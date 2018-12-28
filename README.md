@@ -28,6 +28,8 @@ For launching the cloud IDE: Here is the link: https://mplabxpress.microchip.com
 
 Another way: Start from the examples site given above. Choose any example for this board. Click on the IDE icon under the "Open" column on the right hand side. It opens the IDE. Click on the myMicrochip login at the right bottom. You can create your login there, or use login if you already have an account. Click on MCC and open .jnlp file with Java web launcher.  
 
+The Cloud IDE and MCC work fine on Win 10; however, on Win 7 and Linux, the MCC does not launch. Any previously developed code (on Win 10 with MCC functioning) can be compiled, downloaded and successfully run on the board plugged in via usb into either a Win 7 or Linux m/c. More details below. In contact with Microchip on resolution of this (12/28/18)
+
 Win 7 installation: MCC download (a .jnp file) was somehow connected to wordpad. So, I had to do 'open with' and choose 'Java Launcher.' JRE was out-of-date. Installed it - with Oracle's recommended settings. Once it is installed, hope the Cloud IDE will work. Not sure of MCC launch. But the previously developed code compiled easily. Downloaded to the board and the board executed the code (for LED On Off) successfully. Still to go back and understand the MCC part. 
 
 Linux installation:  I used command line to download and install icedtea-netx and then executed javaws on the .jnlp file. Error message: Not a launchable jnlp file. However, as with Win 7, I could run previously developed code successfully on the board plugged in. Directions at this [link](). 
