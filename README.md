@@ -30,4 +30,4 @@ Another way: Start from the examples site given above. Choose any example for th
 
 Win 7 installation: MCC download (a .jnp file) was somehow connected to wordpad. So, I had to do 'open with' and choose 'Java Launcher.' JRE was out-of-date. Installed it - with Oracle's recommended settings. Once it is installed, hope the Cloud IDE will work. Not sure of MCC launch. But the previously developed code compiled easily. Downloaded to the board and the board executed the code (for LED On Off) successfully. Still to go back and understand the MCC part. 
 
-Linux installation: 
+Linux installation:  I used command line to download and install icedtea-netx and then executed javaws on the .jnlp file. Error message: Not a launchable jnlp file. However, as with Win 7, I could run previously developed code successfully on the board plugged in. Directions at this [link](). 
