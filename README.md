@@ -28,6 +28,6 @@ For launching the cloud IDE: Here is the link: https://mplabxpress.microchip.com
 
 Another way: Start from the examples site given above. Choose any example for this board. Click on the IDE icon under the "Open" column on the right hand side. It opens the IDE. Click on the myMicrochip login at the right bottom. You can create your login there, or use login if you already have an account. Click on MCC and open .jnlp file with Java web launcher.  
 
-Win 7 installation: MCC download (a .jnp file) was somehow connected to wordpad. So, I had to do 'open with' and choose 'Java Launcher.' JRE was out-of-date. Installed it - with Oracle's recommended settings. Once it is installed, hope the Cloud IDE will work. 
+Win 7 installation: MCC download (a .jnp file) was somehow connected to wordpad. So, I had to do 'open with' and choose 'Java Launcher.' JRE was out-of-date. Installed it - with Oracle's recommended settings. Once it is installed, hope the Cloud IDE will work. Not sure of MCC launch. But the previously developed code compiled easily. Downloaded to the board and the board executed the code (for LED On Off) successfully. Still to go back and understand the MCC part. 
 
 Linux installation: 
