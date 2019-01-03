@@ -5,7 +5,9 @@ __IMPORTANT:__
 many users experiance problems due to antivirus software during the installation.
 Please disable your antivirus during the installation or if you run in to a problem plear uninstall and reinstall with your antivirus off.
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T8tRqvkFZcw
+" target="_blank"><img src="http://img.youtube.com/vi/T8tRqvkFZcw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 https://youtu.be/T8tRqvkFZcw
 https://www.microchip.com/mplab/mplab-x-ide
 
