@@ -29,6 +29,7 @@ After the installer has finished the program it will pop up asking to install dr
 
 __IMPORTANT:__ if you get an error during the driver installation please follow this link http://ww1.microchip.com/downloads/en/DeviceDoc/50002027D.pdf to the MPLABX IDE User Guide
 On page 32 is the process to installed the drivers manually. You can also attempt to uninstall MPLABX and reinstall.
+http://microchipdeveloper.com/mplabx:manually-install-drivers-for-real-ice-or-icd
 
 
 Next you will see this window if you have not already downloaded the compiler this will direct you to the websites to do so.
