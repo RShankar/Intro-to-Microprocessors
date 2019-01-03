@@ -3,30 +3,45 @@ This is for the stand-alone IDE installation.
 
 __IMPORTANT:__
 many users experiance problems due to antivirus software during the installation.
-Please disable your antivirus during the installation or if you run in to a problem plear uninstall and reinstall with your antivirus off.
+Please disable your antivirus during the installation or if you run in to a problem please uninstall and reinstall the IDE with your antivirus off.
 
+Below is a video posted by Microchip on how to install there IDE. The information contained in the video is similar to the infromation in this document both are provided for your convenance.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=T8tRqvkFZcw
 " target="_blank"><img src="http://img.youtube.com/vi/T8tRqvkFZcw/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="480" height="280" border="10" /></a>
+
 https://youtu.be/T8tRqvkFZcw
+
+First Download both the MPLAB IDE and XC Compliler, links below. The complier needed is the XC 8 as the board used for this class is an 8-bit board.
+
+MPLAB X IDE Download:
+
 https://www.microchip.com/mplab/mplab-x-ide
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/1.png "IDE Download 1")
+
+Pick the correcto product for your operating system you will want the newest version.
+
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/1a.png "IDE Download 2")
+
+MPLAB XC Compiler:
 
 https://www.microchip.com/mplab/compiler
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/2.png "XC Download 1")
+
+Pick the correct version for your operating system remember the PIC16F18855 is an 8-bit system so the XC8 complier is requrired for this chip.
+
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/2a.png "XC Download 2")
 
 
-__Install MPLAB X IDE first__
+__Install MPLAB X IDE first.__
 You can use all the default setting. 
 There is a setting to collect information for the betterment of the program.
 Some people do not like to provide any information to the companies.
 If you don't wish to provide information back to the manufacture slimly uncheck the required box
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/3.ng "Privacy")
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/3.png "Privacy")
 After the installer has finished the program it will pop up asking to install drivers
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/1.png "Drivers")
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/4.png "Drivers")
 
 
 __IMPORTANT:__ if you get an error during the driver installation please follow this link http://ww1.microchip.com/downloads/en/DeviceDoc/50002027D.pdf to the MPLABX IDE User Guide
