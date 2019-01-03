@@ -91,7 +91,7 @@ The IDE works almost identically to the MPLAB express web IDE. There are a few h
 
 One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
 
-The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project. 
+The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible, the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project. 
 
 To have the .HEX file show up in your new folder you must follow the following steps for all new projects.
 
