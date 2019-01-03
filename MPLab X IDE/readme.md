@@ -88,3 +88,9 @@ Follow the installation instructions all default settings will work just fine.
 Finally restart the IDE and you are good to go 
 
 The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document.
+
+One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
+
+The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC.
+To easily find the new .HEX files it is recommended you make a folder that is easily accessible the example is a folder on the desktop.
+This will allow you to easily move the files every time you sit down to work on a project. The use of this folder and creating a new project are outlined in New Project.md
