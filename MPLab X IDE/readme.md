@@ -1,9 +1,9 @@
-This is for the stand-alone IDE installation. 
+This is for the stand-alone MPLAB X IDE installation. 
 
 
 __IMPORTANT:__
 many users experience problems due to antivirus software during the installation.
-Please disable your antivirus during the installation or if you run in to a problem please uninstall and reinstall the IDE with your antivirus off.
+Please disable your antivirus before the installation or if you run in to a problem please uninstall and reinstall the IDE with your antivirus off as a first step to troubleshooting.
 
 Below is a video posted by Microchip on how to install their IDE. The information contained in the video is like the information in this document both are provided for your convenience.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=T8tRqvkFZcw
@@ -29,7 +29,7 @@ MPLAB XC Compiler:
 https://www.microchip.com/mplab/compiler
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/2.png "XC Download 1")
 
-Pick the correct version for your operating system remember the PIC16F18855 is an 8-bit system so the XC8 complier is required for this chip. Again you will want the newest version.
+Pick the correct version for your operating system remember the PIC16F18855 is an 8-bit system so the XC8 complier is required for this chip. Again, you will want the newest version.
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/2a.png "XC Download 2")
 
@@ -52,7 +52,7 @@ http://microchipdeveloper.com/mplabx:manually-install-drivers-for-real-ice-or-ic
 
 
 Next you will see this window if you have not already downloaded the compiler this will direct you to the websites to do so.
-You can uncheck all the boxes if you have already downloaded the compiler they simply open your web browser to 3 more products the MCC is covered later on in this document.
+You can uncheck all the boxes if you have already downloaded the compiler they simply open your web browser to 3 more products the MCC is covered later in this document.
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/5.png "IDE Final")
 
 
@@ -75,4 +75,4 @@ Follow the installation instructions all default settings will work just fine.
 
 Finally restart the IDE and you are good to go 
 
-The IDE works almost identically to the MPLAB express web IDE. There are a few hickups when moving a project from the xpress IDE to the X IDE which will be covered in another document.
+The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document.
