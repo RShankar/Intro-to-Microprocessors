@@ -32,12 +32,12 @@ To have the .HEX file show up in your new folder you must follow the following s
 
 First right click on the project and select properties.
 
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/17.png "IDE Download 1")
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/17.png "Properties")
 
 From here select Building on the left
 
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "IDE Download 1")
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "Building")
 
 Finally add __cp ${ImagePath} YOUR PATH HERE__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
 
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "IDE Download 1")
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "Add Path")
