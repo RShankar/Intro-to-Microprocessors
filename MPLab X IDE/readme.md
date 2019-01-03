@@ -91,6 +91,19 @@ The IDE works almost identically to the MPLAB express web IDE. There are a few h
 
 One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
 
-The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC.
-To easily find the new .HEX files it is recommended you make a folder that is easily accessible the example is a folder on the desktop.
-This will allow you to easily move the files every time you sit down to work on a project. The use of this folder and creating a new project are outlined in New Project.md
+The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project. 
+
+To have the .HEX file show up in your new folder you must follow the following steps for all new projects.
+
+First right click on the project and select properties.
+
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/17.png "IDE Download 1")
+
+From here select Building on the left
+
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "IDE Download 1")
+
+Finally add __cp ${ImagePath} YOUR PATH HERE__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
+
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "IDE Download 1")
+
