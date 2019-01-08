@@ -26,4 +26,8 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
   
   ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N1.jpg "New set up") 
  
-
+  Notice with this click board set up that the decimal point side of the display is on the RB side of the evaluation board. Again you can wire the display anyway you want however the code provided here will not work.
+  
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N2.jpg "New set up") 
+  
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N3.jpg "New set up") 
