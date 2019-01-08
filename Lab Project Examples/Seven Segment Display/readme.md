@@ -1,4 +1,4 @@
- This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code"
+This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code"
  This extension displays on a four digit 7-seg display instead of the 2 digit used by Di Jasio.
  
  Before we start a warning:
@@ -37,7 +37,7 @@
   
   __DO NOT PLUG IN TO THE 5V or 3.3V PORTS THIS COULD DAMAGE THE DISPLAY__
   
-  Now that the display is hooked up time to figure out which port on the board corrosponds to what on the 7-segment display. The way I did it was to first write (Red text) the port that each pin was hooked up to on the upper pinout then transfer the ports down to the lower diagaram (Blue text) to get a full representation of which port was controling what.
+  Now that the display is hooked up time to figure out which port on the board corresponds to what on the 7-segment display. The way I did it was to first write (Red text) the port that each pin was hooked up to on the upper pinout then transfer the ports down to the lower diagram (Blue text) to get a full representation of which port was controlling what.
   
  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/diagram%20display%20marked%20up.png "Pin Map")  
  
@@ -45,14 +45,20 @@
  
  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Manager.JPG "Pin Manager")  
 
-And then assign them how our program will see them. For this I used the blue text from our marked up data sheet.
+And then assign them how our program will see them. For this I used the blue text from our marked-up data sheet.
 If you wired differently from me your pin module will look different from mine
 
  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Module.JPG "Pin Module") 
  
- Following the naming convention Di Jasio was useing we should have labled all our pins as above.
+ Following the naming convention Di Jasio was using we should have labeled all our pins as above.
+ 
+ The last step is to extend Di Jasio's code for the 2 extra common anodes
+ 
+ Notice how only one anode (A1,A2,A3,A4) is set high at a time this controls which digit is being displayed at current. 
+ 
  ```C
-         digit=(ADCC_GetSingleConversion(POT)>>6);
+        digit=(ADCC_GetSingleConversion(POT)>>6);//pulls digit from POT
+        
         A4_SetLow();//turns off 4th digit
         A1_SetHigh();//turns on 1st digit
         CCDCON=LIMIT_2mA;//currentlimit
@@ -77,3 +83,4 @@ If you wired differently from me your pin module will look different from mine
         digitShow(digit);
         __delay_ms(5);
  ```
+The full project is attached above see SevenSeg.X.zip
