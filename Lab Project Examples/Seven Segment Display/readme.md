@@ -12,7 +12,7 @@
  
  The 5641BH is a common anode 7 segment display. This means we will use pin 12, 9, 8, and 6 to control which digit we are currently working on by setting one pin high and the others low. The remainder of the pins are used to control which sections of the 7-segment are illuminated. For a common anode we set the pins High that we need off and the pins we need on to Low allowing the power to flow from the common anode pin that is high to the segment pins that are low 
  
- For example, if we wanted to display '3' on the second digit we would set pin 9 High and pins 12,8, and 6 low. We would then set the pins that correspond to F, E, and DP (decimal point), pins 1, 10 and 3, to high and the remainder of the pins to low.
+ For example, if we wanted to display '3' on the second digit we would set pin 9 High and pins 12, 8, and 6 low. We would then set the pins that correspond to F, E, and DP (decimal point), pins 1, 10 and 3, to high and the remainder of the pins to low.
  
  Now that we have some understanding of the 7-seg display I will show 2 ways to hook up the 7-segment display to the evaluation board.
 
@@ -26,7 +26,7 @@
   
   ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O3.jpg "Original closeup board")
   
-  There is a second method that we will be using however that is much easier. This method uses a printed circuit board, designed by FAU's lab manager Perry Weinthal, which will allow us to connect the 5641BH directly to the evaluation board
+  There is a second method that we will be using which is much easier. This method uses a printed circuit board, designed by FAU's lab manager Perry Weinthal, which will allow us to connect the 5641BH directly to the evaluation board
   
   ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N1.jpg "New set up") 
  
@@ -52,6 +52,13 @@ If you wired differently from me your pin module will look different from mine
  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Module.JPG "Pin Module") 
  
  Following the naming convention Di Jasio was using we should have labeled all our pins as above.
+ 
+ Now that we have the pins set we must construct the proper CCDNC and CCDNB binary strings for the constant current contriole when driving the output low. We need the constant current control on the low pins for all the pins which have a Segment of the 7-segmnt display on them. To recap for the wiring used in this document the pins on the board that have a segment hooked up to them are RB0-RB4, RC2, RC3 and RC6. This is a total of 8 ports 7 for the digit and one for the decimal point. Now to construct CCDNC we simply set the bits high that we need current control on 01001100 and simmilary for CCDNB 00011111
+ 
+```C
+    CCDNC |= 0b01001100;//Enables constant current for pin RC6(SEG_F) RC3(SEG_B) and RC2(SEG_A)
+    CCDNB |= 0b00011111;//Enables constant current for pin RB4(SEG_G) RB3(SEG_C) RB2(SEG_DP) RB1(SEG_D) and RB0(SEG_E)
+```
  
  The last step is to extend Di Jasio's code for the 2 extra common anodes
  
