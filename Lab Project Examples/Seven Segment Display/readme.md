@@ -45,6 +45,35 @@
  
  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Manager.JPG "Pin Manager")  
 
-And then assign them how our program will see them.
+And then assign them how our program will see them. For this I used the blue text from our marked up data sheet.
+If you wired differently from me your pin module will look different from mine
 
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Module.JPG "Pin Module")  
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Module.JPG "Pin Module") 
+ 
+ Following the naming convention Di Jasio was useing we should have labled all our pins as above.
+ ```C
+         digit=(ADCC_GetSingleConversion(POT)>>6);
+        A4_SetLow();//turns off 4th digit
+        A1_SetHigh();//turns on 1st digit
+        CCDCON=LIMIT_2mA;//currentlimit
+        digitShow(digit);
+        __delay_ms(5);
+        
+        A1_SetLow();//turns off 1st digit
+        A2_SetHigh();//turns on 2nd digit
+        CCDCON=LIMIT_5mA;//currentlimit
+        digitShow(digit);
+        __delay_ms(5);
+                
+        A2_SetLow();//turns off second digit
+        A3_SetHigh();//turns on 3rd digit
+        CCDCON=LIMIT_10mA;//currentlimit
+        digitShow(digit);
+        __delay_ms(5);
+        
+        A3_SetLow();//turns off 3rd digit
+        A4_SetHigh();//turns on 4th digit
+        CCDCON=LIMIT_NONE;//currentlimit
+        digitShow(digit);
+        __delay_ms(5);
+ ```
