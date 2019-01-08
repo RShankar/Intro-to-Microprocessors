@@ -18,10 +18,12 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
  
  You can wire the board in any order you wish however this code will only work with the ordering as seen in the picture.
  
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O2.jpg "Original set up")
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O2.jpg "Original closeup display")
   
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O3.jpg "Original set up")
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O3.jpg "Original closeup board")
   
+  There is a second method that we will be useing however that is much easier. This method uses a printed circuit board, designed by FAU's lab manager Perry Weinthal, which will allow us to connect the 5641BH directly to the evaluation board
   
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O1.jpg "New set up") 
  
 
