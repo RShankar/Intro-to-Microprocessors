@@ -1,4 +1,5 @@
-This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code"
+ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code". 
+
  This extension displays on a four digit 7-seg display instead of the 2 digit used by Di Jasio.
  
  Before we start a warning:
