@@ -24,6 +24,6 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
   
   There is a second method that we will be useing however that is much easier. This method uses a printed circuit board, designed by FAU's lab manager Perry Weinthal, which will allow us to connect the 5641BH directly to the evaluation board
   
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/O1.jpg "New set up") 
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N1.jpg "New set up") 
  
 
