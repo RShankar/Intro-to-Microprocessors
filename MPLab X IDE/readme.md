@@ -87,7 +87,7 @@ Follow the installation instructions all default settings will work just fine.
 
 Finally restart the IDE and you are good to go 
 
-The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document,[Xpress To X IDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/Xpress%20To%20X%20IDE.md).
+The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document, [Xpress To X IDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/Xpress%20To%20X%20IDE.md).
 
 One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
 
