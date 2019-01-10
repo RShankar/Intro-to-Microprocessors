@@ -3,7 +3,7 @@ Start from the examples site given [here](https://mplabxpress.microchip.com/mpla
 
 We have verified that the Cloud IDE and MCC work on Windows 7 and 10. We expect it will work on Linux (see notes below). For Mac, you may need VMware or VirtualBox. 
 
-Installation of MCC may give some problems - it requires javaws to launch. The default program attached to it by Windows may be wordpad or Java Launcher. First make sure you have the latest version of Java. Go to Control Panel\Programs\Programs and Features and ensure you have Java 8 update 191. If not, download from [here] (https://www.java.com/en/download/).  
+Installation of MCC may give some problems - it requires javaws to launch. The default program attached to it by Windows may be wordpad or Java Launcher. First make sure you have the latest version of Java. Go to Control Panel\Programs\Programs and Features and ensure you have Java 8 update 191. If not, download from [here](https://www.java.com/en/download/).  
 
 Steps to associate the jnlp with Javaws application are given [here](https://blackboard.secure.force.com/btbb_exportarticlepdf?id=kA770000000CbF5CAK). 
 
