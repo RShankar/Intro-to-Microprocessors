@@ -44,7 +44,7 @@ Now you should be looking at a screen like this.
 
 Click Next 
 
-Windows will now throw a security window up. Click to "Install this driver software anyway". This security is because this is not an official driver for the evaluation board, but this was the only driver I could find to work for our board.
+Windows will now throw a security window up. Click to "Install this driver software anyway". This security warning is because this is not an official driver for the evaluation board, but this was the only driver I could find to work for our board.
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/T10.png)
 
