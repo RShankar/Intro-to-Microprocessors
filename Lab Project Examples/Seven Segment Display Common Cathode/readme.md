@@ -40,44 +40,46 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
 And then assign them how our program will see them. For this I used the blue text from our marked-up data sheet.
 If you wired differently from me your pin module will look different from mine
 
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/Pin_Module.JPG "Pin Module") 
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/Pin_Module.png"Pin Module") 
  
- Following the naming convention Di Jasio was using we should have labeled all our pins as above.
+ Following the naming convention Di Jasio was using we should have labeled all our pins as above. 
  
- Now that we have the pins set we must construct the proper CCDPC and CCDPB binary strings for the constant current control when driving the output low. We need the constant current control on the low pins for all the pins which have a Segment of the 7-segmnt display on them. To recap for the wiring used in this document the pins on the board that have a segment hooked up to them are RB0-RB4, RC2, RC3 and RC6. This is a total of 8 ports 7 for the digit and one for the decimal point. Now to construct CCDPC we simply set the bits high that we need current control on 01001100 and similarly for CCDPB 00011111
+ **Note** We are now useing C1 and C2 insteady of A1 and A2, Cathode instead of Anode
  
-```C
-    CCDPC |= 0b01001100;//Enables constant current for pin RC6(SEG_F) RC3(SEG_B) and RC2(SEG_A)
-    CCDPB |= 0b00011111;//Enables constant current for pin RB4(SEG_G) RB3(SEG_C) RB2(SEG_DP) RB1(SEG_D) and RB0(SEG_E)
+ Now that we have the pins set we must construct the proper CCDNC and CCDNB binary strings for the constant current control when driving the output low. We need the constant current control on the low pins which turn on Segments for Common Cathode those pins would be the common cathodes. To recap for the wiring used in this document the pins on the board that have a Cathode hooked up to them are RC7, RC5, RC4, and RB5. This is a total of 4 ports one for each digit. Now to construct CCDNC we simply set the bits high that we need current control on 10110000 and similarly for CCDPB 00100000
+ 
+```C    
+    CCDNC |= 0b10110000;//Enables constant current for pin RC7(C1) RC5(C2) and RC4(C3)
+    CCDNB |= 0b00100000;//Enables constant current for pin RB5(C4)
 ```
  
  The last step is to extend Di Jasio's code for the 2 extra common cathodes
  
- Notice how only one anode (A1,A2,A3,A4) is set LOW at a time this controls which digit is being displayed at current. 
+ Notice how only one Cathode (C1,C2,C3,C4) is set LOW at a time this controls which digit is being displayed at current. 
  
  ```C        
-        digit=(ADCC_GetSingleConversion(POT)>>6);// The >>6 gives us 16 digits of freedom enough for 0-F
-        //Note this code has been changed for a common cathode there for setting A#High turns off that digit and setting A#Low turns on that digit.
-        A4_SetHigh();//turns off 4th digit
-        A1_SetLow();//turns on 1st digit
+        digit=(ADCC_GetSingleConversion(POT)>>6);//the>>6 gives us 16 digits of freedom enough for 0-F
+        //Note this code has been changed for a common cathode there for setting C#High turns off that digit and setting C#Low turns on that digit.
+        C4_SetHigh();//turns off 4th digit
+        C1_SetLow();//turns on 1st digit
         CCDCON=LIMIT_2mA;//currentlimit
         digitShow(digit);
         __delay_ms(5);
         
-        A1_SetHigh();//turns off 1st digit
-        A2_SetLow();//turns on 2nd digit
+        C1_SetHigh();//turns off 1st digit
+        C2_SetLow();//turns on 2nd digit
         CCDCON=LIMIT_5mA;//currentlimit
         digitShow(digit);
         __delay_ms(5);
                 
-        A2_SetHigh();//turns off second digit
-        A3_SetLow();//turns on 3rd digit
+        C2_SetHigh();//turns off second digit
+        C3_SetLow();//turns on 3rd digit
         CCDCON=LIMIT_10mA;//currentlimit
         digitShow(digit);
         __delay_ms(5);
         
-        A3_SetHigh();//turns off 3rd digit
-        A4_SetLow();//turns on 4th digit
+        C3_SetHigh();//turns off 3rd digit
+        C4_SetLow();//turns on 4th digit
         CCDCON=LIMIT_NONE;//currentlimit
         digitShow(digit);
         __delay_ms(5);
