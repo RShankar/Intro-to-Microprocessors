@@ -1,4 +1,4 @@
- This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code". 
+This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of code". 
 
  This extension displays on a four digit 7-seg display instead of the 2 digit used by Di Jasio.
  Also it is edited to work for a common cathode 7-seg display Di Jasio uses a common Anode.
@@ -44,7 +44,7 @@ If you wired differently from me your pin module will look different from mine
  
  Following the naming convention Di Jasio was using we should have labeled all our pins as above.
  
- Now that we have the pins set we must construct the proper CCDPC and CCDPB binary strings for the constant current contriole when driving the output low. We need the constant current control on the low pins for all the pins which have a Segment of the 7-segmnt display on them. To recap for the wiring used in this document the pins on the board that have a segment hooked up to them are RB0-RB4, RC2, RC3 and RC6. This is a total of 8 ports 7 for the digit and one for the decimal point. Now to construct CCDPC we simply set the bits high that we need current control on 01001100 and simmilary for CCDPB 00011111
+ Now that we have the pins set we must construct the proper CCDPC and CCDPB binary strings for the constant current control when driving the output low. We need the constant current control on the low pins for all the pins which have a Segment of the 7-segmnt display on them. To recap for the wiring used in this document the pins on the board that have a segment hooked up to them are RB0-RB4, RC2, RC3 and RC6. This is a total of 8 ports 7 for the digit and one for the decimal point. Now to construct CCDPC we simply set the bits high that we need current control on 01001100 and similarly for CCDPB 00011111
  
 ```C
     CCDPC |= 0b01001100;//Enables constant current for pin RC6(SEG_F) RC3(SEG_B) and RC2(SEG_A)
@@ -84,9 +84,9 @@ If you wired differently from me your pin module will look different from mine
  ```
 The full project is attached above see SevenSeg.X.zip
 
-As an even further extention we have added the full alpabit to the matrix in the file marked SevenSeg0ToVTest.X.zip
+As an even further extension we have added the full alphabet to the matrix in the file marked SevenSeg0ToVTest.X.zip
 
-This changed the matrix provided by Di Jasio to Include the full Alpabit found here: https://en.wikichip.org/wiki/seven-segment_display/representing_letters
+This changed the matrix provided by Di Jasio to Include the full Alphabet found here: https://en.wikichip.org/wiki/seven-segment_display/representing_letters
 
  ```C  
  uint8_t matrix[]={//Matrix that translates needed digit to a binary string to control which of the LEDs in the 7 segment are on and off
