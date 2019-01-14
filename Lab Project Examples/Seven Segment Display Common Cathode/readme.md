@@ -7,7 +7,7 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
  __DO NOT PLUG IN TO THE 5V or 3.3V PORTS THIS COULD DAMAGE THE DISPLAY__
  
  To Start with we should look at a section of the data sheet for the 3641AS used for this extension.
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/diagram%20display.png "Data sheet")
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/diagram%20display.png "Data sheet")
  
  Picture Credited to: https://www.peterparts.com/CatalogPages/57/1007.pdf
  
@@ -19,19 +19,19 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
 
  This method uses a printed circuit board, designed by FAU's lab manager Perry Weinthal, which will allow us to connect the 3641AS directly to the evaluation board
   
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N1.jpg "New set up") 
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/1.jpg "New set up") 
  
   Notice with this click board set up that the decimal point side of the display is on the RB side of the evaluation board. You can wire the display anyway you want however the code provided here will not work.
   
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N2.jpg "New set up") 
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/2.jpg "New set up") 
   
-  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/N3a.jpg "New set up") 
+  ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/3.jpg "New set up") 
   
   __DO NOT PLUG IN TO THE 5V or 3.3V PORTS THIS COULD DAMAGE THE DISPLAY__
   
   Now that the display is hooked up time to figure out which port on the board corresponds to what on the 7-segment display. The way I did it was to first write (Red text) the port that each pin was hooked up to on the upper pinout then transfer the ports down to the lower diagram (Blue text) to get a full representation of which port was controlling what.
   
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display/diagram%20display%20marked%20up.png "Pin Map")  
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/diagram%20display%20marked%20up.png "Pin Map")  
  
  From here we will move over to the MCC in the MPLAP IDE to reserve the pins on the board 
  
