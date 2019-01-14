@@ -7,7 +7,7 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
  __DO NOT PLUG IN TO THE 5V or 3.3V PORTS THIS COULD DAMAGE THE DISPLAY__
  
  To Start with we should look at a section of the data sheet for the 3641AS used for this extension.
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/diagram%20display.png "Data sheet")
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/Diagram%20Display.png "Data sheet")
  
  Picture Credited to: https://www.peterparts.com/CatalogPages/57/1007.pdf
  
@@ -31,7 +31,7 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
   
   Now that the display is hooked up time to figure out which port on the board corresponds to what on the 7-segment display. The way I did it was to first write (Red text) the port that each pin was hooked up to on the upper pinout then transfer the ports down to the lower diagram (Blue text) to get a full representation of which port was controlling what.
   
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/diagram%20display%20marked%20up.png "Pin Map")  
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/Diagram%20Display%20Marked%20Up.png "Pin Map")  
  
  From here we will move over to the MCC in the MPLAP IDE to reserve the pins on the board 
  
