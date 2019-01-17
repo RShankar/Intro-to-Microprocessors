@@ -1,8 +1,8 @@
 Please see the following files.
 
-__It is recommened that you read all of them__
+__It is recommended that you read all of them__
 
-First is a file to assist in instalation [1-InstallingMPLABXIDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/1-InstallingMPLABXIDE.md).
+First is a file to assist in installation [1-InstallingMPLABXIDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/1-InstallingMPLABXIDE.md).
 
 Second is a file to assist in bringing files in to the X IDE from the XPRESS IDE [2-XpressToXIDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/2-XpressToXIDE.md)
 
