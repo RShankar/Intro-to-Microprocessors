@@ -22,6 +22,10 @@ Select the XC8 Compiler and click ok. Your project should now work exactly how i
 
 Now would be a good time to set your build folder also.
 
+The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible, the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project.
+
+To have the .HEX file show up in your new folder you must follow the following steps for all new projects.
+
 Select Building on the left
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "Building")
