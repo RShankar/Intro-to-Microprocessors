@@ -20,7 +20,7 @@ Once in the Device Manager under "Other Devices" you should find "Microchip Comp
 
 **Note** If you do not see this then either your evaluation board is not connected to your PC or this is not the problem you are having
 
-Now either download "mdmcpq.inf" or search for it on your computer. You will need this driver to get the evaluation board to work properly.
+Now download and unzip [mchpcdc.zip](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/mchpcdc.zip).You will need this driver to get the evaluation board to work properly.
 
 From here right click on "Microchip Composite Device" and choose "Update Driver Software..." and follow the next few pictures.
 
@@ -34,7 +34,7 @@ From here right click on "Microchip Composite Device" and choose "Update Driver 
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/T8.png)
 
-Once you are on this screen click browse and find where you either located "mdmcpq.inf" or where you saved the one you downloaded.
+Once you are on this screen click browse and find where you unzipped "mchpcdc.inf"
 
 Next click "OK"
 
