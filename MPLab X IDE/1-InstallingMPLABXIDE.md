@@ -87,23 +87,5 @@ Follow the installation instructions all default settings will work just fine.
 
 Finally restart the IDE and you are good to go 
 
-The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document, [Xpress To X IDE.md](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/Xpress%20To%20X%20IDE.md).
-
-One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
-
-The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible, the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project. 
-
-To have the .HEX file show up in your new folder you must follow the following steps for all new projects.
-
-First right click on the project and select properties.
-
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/17.png "Properties")
-
-From here select Building on the left
-
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "Building")
-
-Finally add __cp ${ImagePath} YOUR PATH HERE__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
-
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "Add Path")
+The IDE works almost identically to the MPLAB express web IDE. There are a few hiccups when moving a project from the Xpress IDE to the X IDE which will be covered in another document.
 
