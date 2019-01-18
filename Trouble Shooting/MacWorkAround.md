@@ -1,4 +1,4 @@
-There is an issue with using this board on MACs where IOS will not allow you to program the board. The issue is the **Mass storage device** Shows up as read only. It seems to only effect certain Macs. So, if your Mac lets you write to the board then you are good to go otherwise this document will help you.
+There is an issue with using this board on MACs where IOS will not allow you to program the board. The issue is the **Mass storage device** Shows up as read only. It seems to only effect certain Macs. So, if your Mac lets you write to the board then you are good to go otherwise this document will help you. Addtionally serial communication should work just fine on Mac with the CoolTerm Program.
 
 Once you have a .HEX file that you want to program to the board load up VMware (photos are taken from a PC) and log in to the all engineering student’s desktop. 
 
