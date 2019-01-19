@@ -22,7 +22,7 @@ Select the XC8 Compiler and click ok. Your project should now work exactly how i
 
 Now would be a good time to set your build folder also.
 
-The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible, the example is a folder on the desktop. This will allow you to easily move the files every time you sit down to work on a project.
+The Evaluation board is programed by moving a .HEX file to the "Mass storage device" representation of the board on your PC. To easily find the new .HEX files it is recommended you make a folder that is easily accessible, the __Recommended__ example is a folder on your C Drive (Z drive if you are using VMware or zero point client). This will allow you to easily move the files every time you sit down to work on a project.
 
 To have the .HEX file show up in your new folder you must follow the following steps for all new projects.
 
@@ -30,6 +30,8 @@ Select Building on the left
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "Building")
 
-Finally add __cp ${ImagePath} YOUR PATH HERE__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
+Finally add __cp ${ImagePath} c:\HEX__ or __ cp ${ImagePath} z:\HEX __ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
+
+__You must create a new folder called HEX on your C or Z drive for this to work otherwise you will get errors__
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "Add Path")
