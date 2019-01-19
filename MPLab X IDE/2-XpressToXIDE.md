@@ -30,8 +30,10 @@ Select Building on the left
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/18.png "Building")
 
-Finally add __cp ${ImagePath} c:\HEX__ or __ cp ${ImagePath} z:\HEX __ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
+Finally add __cp ${ImagePath} c:\HEX__ or __cp ${ImagePath} z:\HEX__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
 
 __You must create a new folder called HEX on your C or Z drive for this to work otherwise you will get errors__
+
+__Having more complex file paths like the one below to the desktop may cause errors__
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "Add Path")
