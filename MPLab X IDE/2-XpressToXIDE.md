@@ -32,6 +32,8 @@ Select Building on the left
 
 Finally add __cp ${ImagePath} c:\HEX__ or __cp ${ImagePath} z:\HEX__ to the execute this line after build field and check the check box. C:\Users\Doug\Desktop\HEX is the path used for this example.
 
+__Note for Mac you may need to use /Users/Doug/Desktop/HEX as macs file system is different then for windows__  
+
 __You must create a new folder called HEX on your C or Z drive for this to work otherwise you will get errors__
 
 __Having more complex file paths like the one below to the desktop may cause errors__
