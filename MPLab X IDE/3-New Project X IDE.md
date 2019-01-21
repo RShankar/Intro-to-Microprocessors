@@ -40,5 +40,6 @@ __You must create a new folder called HEX on your C or Z drive for this to work 
 
 __Having more complex file paths like the one below to the desktop may cause errors__
 
+__Note for Mac you may need to use /Users/Doug/Desktop/HEX as macs file system is different then for windows__ 
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/19.png "Add Path")
