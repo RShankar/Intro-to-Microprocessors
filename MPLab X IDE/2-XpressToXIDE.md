@@ -2,7 +2,7 @@ In the Express Web IDE right click on the project then "Package as MPLAB X Proje
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/21.png "Package as MPLAB X Project")
 
-This will download a .ZIP file which will contain a folder that ends with .X place this folder in your IDE projects folder. Then open the project in MPLAB X IDE. The 3rd icon is the open button navigate to where you unzipped the zip file to, Your IDE Projects folder.
+This will download a .ZIP file which will contain a folder that ends with .X place this folder in your IDE projects folder __Recommened to be on your C or Z drive I.E C:\MPLabProjects__. Then open the project in MPLAB X IDE. The 3rd icon is the open button navigate to where you unzipped the zip file to, Your IDE Projects folder.
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/22.png "Open")
 
