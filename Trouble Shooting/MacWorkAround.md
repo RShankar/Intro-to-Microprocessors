@@ -2,6 +2,8 @@ There is an issue with using this board on MACs where IOS will not allow you to 
 
 Once you have a .HEX file that you want to program to the board load up VMware (photos are taken from a PC) and log in to the all engineering student’s desktop. 
 
+__-If you do not have VMware on your computer please follow the steps here https://tsg.eng.fau.edu/software/vmware-remote-desktop-access/__
+
 Next activate the USB for VMware
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/M1a.png)
 
