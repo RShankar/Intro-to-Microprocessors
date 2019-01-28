@@ -3,7 +3,7 @@ There is an issue with using this board on MACs where IOS will not allow you to 
 Once you have a .HEX file that you want to program to the board load up VMware (photos are taken from a PC) and log in to the all engineering student’s desktop. 
 
 Next activate the USB for VMware
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/M1.png)
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/M1a.png)
 
 The icon will look slightly different on the VMware version of mac
 
