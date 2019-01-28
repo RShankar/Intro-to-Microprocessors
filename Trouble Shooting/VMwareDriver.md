@@ -1,5 +1,7 @@
 __You will need to perform this every time you start a new client session with VMware AND need to preform serial communication__
 
+If you do not have VMware on your computer please follow the steps here https://tsg.eng.fau.edu/software/vmware-remote-desktop-access/
+
 Open the Device Manager
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Trouble%20Shooting/V1.png)
