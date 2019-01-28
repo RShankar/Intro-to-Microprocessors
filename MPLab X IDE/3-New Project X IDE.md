@@ -22,6 +22,8 @@ Here you will choose the compiler that the project will use. The XC8 is used for
 
 Lastly give your project a name.
 
+__It is recommened for you to save your projects on your C or Z drive I.E C:\MPLabProjects errors can happen for more complex paths__
+
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/MPLab%20X%20IDE/16.png "IDE Download 1")
 
 One Last bit of helpful information when using the MPLAB X IDE for the evaluation boards.
