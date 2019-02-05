@@ -33,7 +33,7 @@ to
  ```
  This change happens because we do not need to have the same pin count as input and output.
  
- __Note it would be better to use a hardware timer instead of __delay_us(5); as delay could cause problems with hanging up the microchip and missing part of the return signal__
+ __Note it would be better to use a hardware timer instead of delay_us(5); as delay could cause problems with hanging up the microchip and missing part of the return signal__
  
  The rest of the code is like Di Jasios
  
