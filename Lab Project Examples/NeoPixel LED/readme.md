@@ -10,6 +10,6 @@ Note: you must supply the NeoPixel with 3.3v if you are communicating to it with
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP2.png)
 
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP3.png)
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP3.jpg)
 
-![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP4.png)
+![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP4.jpg)
