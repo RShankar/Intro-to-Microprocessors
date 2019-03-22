@@ -21,7 +21,7 @@ Here is a photo of it connected in our board.
 
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/NeoPixel%20LED/NP4.jpg)
 
-The only change to the code is to move the delay from inside the main to inside NeoPixel_Stream
+The only change to the code is to move the delay from inside the main to inside NeoPixel_Stream. This can be seen in the given code.
 
 The delay is importaint as it tells the NeoPixel to update to the color that just got sent to it.
 
