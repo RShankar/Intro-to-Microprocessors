@@ -40,7 +40,7 @@ This is an extension to project #5 page 55 of Lucio Di Jasio's "In 10 Lines Of c
 And then assign them how our program will see them. For this I used the blue text from our marked-up data sheet.
 If you wired differently from me your pin module will look different from mine
 
- ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/Pin_Module.png"Pin Module") 
+ ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Seven%20Segment%20Display%20Common%20Cathode/Pin_Module.png "Pin Module") 
  
  Following the naming convention Di Jasio was using we should have labeled all our pins as above. 
  
