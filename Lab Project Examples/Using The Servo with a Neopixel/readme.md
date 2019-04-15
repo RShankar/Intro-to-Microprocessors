@@ -23,6 +23,6 @@ Lastly we still need the PWM to Modulate our 2ms pulse at 100% or PWM7_LoadDutyV
 ![alt text](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/Lab%20Project%20Examples/Using%20The%20Servo%20with%20a%20Neopixel/S4.png)
 
 
-As we have seen in class this is not exact you may wish to further experiment with the timer length of the Timer 6 make sure that the 2ms is the largest value needed.
+As we have seen in class this is not exact and you may wish to further experiment with the timer length of the Timer 6 make sure that the 2ms is the largest value needed.
 I have already found that the 50% does not return the desired angle and have found 180 degree of movement to be about 
 PWM7_LoadDutyValue(499); to PWM7_LoadDutyValue(100); which is the PWM going from 100% to 20%
