@@ -6,8 +6,8 @@ There are four entries here, as of 4/28/2019:
 [MPLABX IDE Tutorial for Lab 4 (7Seg Display)](https://www.youtube.com/watch?v=XEMjPRKgYmw) 
 4. "Tutorial on Hardware Debugging Using Curiosity Standard Board (DM164137)" by Tsz Shing Soi, another student in the class. 
 5. "One page lab report example", posted by Doug Athenosy. This is a report submitted by one good student in the class, posted here as a good example to follow. 
-6. "MCC Resolution Error In MPLAB X IDE" - Different windows get overlapped on a smaller screen device. Here is the resolution writeup, posted by Doug Athenosy. Thanks to Akiwa for helping us locate the solution and trying it out first. 
-7. Some compilation errors occur. Here is one [example](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/General%20Tutorials/Compilation%20Error%20-%202019-04-12T03_04_28.630Z.jpg). Thanks to Daniel Martinez, a student in the course, for bringing it to our attention. Solution for this specific error, provided by Doug Athenosy: Go to ADCC.H and delete the following lines to fix this error
+6. "MCC Resolution Error In MPLAB X IDE" - Different windows get overlapped on a smaller screen device and ability to navigate through them is lost. This is the resolution writeup, posted by Doug Athenosy. Thanks to Akiva Green, a student in the class for helping us locate the solution and trying it out first. He has a Surface Pro, which has it set to 200% by default.
+7. Some compilation errors occur. Here is one [example](https://github.com/RShankar/Intro-to-Microprocessors/blob/master/General%20Tutorials/Compilation%20Error%20-%202019-04-12T03_04_28.630Z.jpg). Thanks to Daniel Martinez, a student in the course, for bringing it to our attention. Solution for this specific error, provided by Doug Athenosy: Go to ADCC.H and delete the following lines to fix this error (others will be similar - included here to show that the fixes are typically simple):
 
 ```
 #ifndef int24_t
